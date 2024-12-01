@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 
 # Load and preprocess data
-data = pd.read_csv("C:\\Users\\lenovo\\Dynamic Pricing\\AB_NYC_2019.csv.csv")
+data = pd.read_csv("C:\\Users\\lenovo\\Dynamic Pricing\\AB_NYC_2019.csv")
 data.drop(['name', 'id', 'host_name', 'last_review'], axis=1, inplace=True)
 data['reviews_per_month'].fillna(0, inplace=True)
 
