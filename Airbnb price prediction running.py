@@ -42,7 +42,7 @@ from sklearn.metrics import mean_squared_error
 # In[3]:
 
 
-data = pd.read_csv("file:///C:\\Users\\lenovo\\Downloads\\AB_NYC_2019.csv")
+data = pd.read_csv("C:\\Users\\lenovo\\Dynamic Pricing\\AB_NYC_2019.csv")
 
 
 # # Explore the Dataset 
