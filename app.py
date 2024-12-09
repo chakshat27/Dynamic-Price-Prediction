@@ -59,3 +59,18 @@ if st.button("Predict Price per Night"):
     total_price = price_per_night * minimum_nights
     st.success(f"Predicted Price per Night: ${price_per_night[0]:.2f}")
     st.success(f"Total Price for {minimum_nights} Night(s): ${total_price[0]:.2f}")
+
+
+
+
+st.markdown(
+    """
+    <hr>
+    <footer style="text-align: center; font-size: small; color: gray;">
+        © 2023 Sentiment Analyser App | Created By- Chakshat Bali , Savi Chopra
+    </footer>
+    """,
+    unsafe_allow_html=True
+)
+
+
