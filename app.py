@@ -37,10 +37,10 @@ st.title("Airbnb Dynamic Price Prediction")
 st.subheader("Input Listing Details")
 
 # User input fields
-neighbourhood_group = st.selectbox("Neighbourhood Group", label_encoders['neighbourhood_group'].classes_)
-room_type = st.selectbox("Room Type", label_encoders['room_type'].classes_)
-minimum_nights = st.number_input("Minimum Nights", min_value=1, value=1)
-availability_365 = st.slider("Availability (Days per Year)", 0, 365, 100)
+neighbourhood_group = st.selectbox("Choose Area", label_encoders['neighbourhood_group'].classes_)
+room_type = st.selectbox("Choose Room Type", label_encoders['room_type'].classes_)
+minimum_nights = st.number_input("Minimum Number of Nights", min_value=1, value=1)
+availability_365 = st.slider("Availability of Airbnb (Days per Year)", 0, 365, 100)
 
 
 # Prepare input data for prediction
