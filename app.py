@@ -40,7 +40,6 @@ st.subheader("Input Listing Details")
 neighbourhood_group = st.selectbox("Neighbourhood Group", label_encoders['neighbourhood_group'].classes_)
 room_type = st.selectbox("Room Type", label_encoders['room_type'].classes_)
 minimum_nights = st.number_input("Minimum Nights", min_value=1, value=1)
-calculated_host_listings_count = st.number_input("Host Listings Count", min_value=1, value=1)
 availability_365 = st.slider("Availability (Days per Year)", 0, 365, 100)
 
 
@@ -49,7 +48,6 @@ input_data = pd.DataFrame({
     'neighbourhood_group': [label_encoders['neighbourhood_group'].transform([neighbourhood_group])[0]],
     'room_type': [label_encoders['room_type'].transform([room_type])[0]],
     'minimum_nights': [minimum_nights],
-    'calculated_host_listings_count': [calculated_host_listings_count],
     'availability_365': [availability_365]
 })
 
