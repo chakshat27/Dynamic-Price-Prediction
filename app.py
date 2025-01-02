@@ -25,7 +25,7 @@ for col in ['neighbourhood_group', 'room_type']:
 
 # Define features and target
 X = data[['neighbourhood_group', 'room_type', 'minimum_nights', 
-          , 'availability_365']]
+          'availability_365']]
 y = data['price_per_night']
 
 # Train the model
