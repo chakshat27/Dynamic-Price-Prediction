@@ -65,7 +65,7 @@ st.markdown(
     """
     <hr>
     <footer style="text-align: center; font-size: small; color: gray;">
-        © 2023 Sentiment Analyser App | Created By- Chakshat Bali , Savi Chopra
+        © 2025 Dynamic Price Prediction  | Created By- Chakshat Bali , Savi Chopra
     </footer>
     """,
     unsafe_allow_html=True
