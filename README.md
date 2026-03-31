@@ -171,9 +171,3 @@ streamlit run app.py
 ## 📜 License
 
 This project is open-source and available under the MIT License.
-
----
-
-
-* Add **badges (GitHub, Python, Streamlit)** for a more professional look
-* Or convert this into a **top-tier resume project description (ATS optimized)**
